@@ -21,20 +21,15 @@ const createRoomFileSync = () => {
 
   roomsData[0] = {
     id: uuid(),
-    name: "The Dock",
+    name: "Digital",
     disableMeeting: true,
   };
 
   const niceNames = [
-    "Nebuchadnezzar",
-    "Logos",
-    "Osiris",
-    "Icarus",
-    "Caduceus",
-    "Brahma",
-    "Novalis",
-    "Vigilant",
-    "Zion",
+    "Webs",
+    "Redação",
+    "CoronaVairous",
+
   ];
 
   for (const niceName of niceNames) {
